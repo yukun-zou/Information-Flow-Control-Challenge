@@ -12,12 +12,12 @@ Program 4
 let(x=h) in l=x;
 
 Program 5
-try { 
-  l = true; 
-  if(h) 
-    throw; 
-  else 
-    skip; 
+try {
+  l = true;
+  if(h)
+    throw;
+  else
+    skip;
   l = false;
 } catch { skip; }
 
