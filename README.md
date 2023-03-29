@@ -1,4 +1,4 @@
-# CTH_Information-Flow-Control-Challenge
+# Information-Flow-Control-Challenge
 
 This is my solution to Information Flow Control Challenge.
 
