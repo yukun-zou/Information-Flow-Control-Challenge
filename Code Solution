@@ -37,6 +37,8 @@ declare array x : low ;
 x[h]=true;
 l=x[true];
 
+In program 9 and 10, I use if(h1) {skip;skip} else skip; to find the values of l.
+
 Program 9
 l1=true;
 l2=false;
