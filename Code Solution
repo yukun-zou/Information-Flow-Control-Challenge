@@ -1,0 +1,54 @@
+Program 1
+l=h;
+
+Program 2
+if(h) l=true; else l=false;
+
+Program 3
+hatch=h;
+l=declassify(hatch);
+
+Program 4
+let(x=h) in l=x;
+
+Program 5
+try { 
+  l = true; 
+  if(h) 
+    throw; 
+  else 
+    skip; 
+  l = false;
+} catch { skip; }
+
+Program 6
+declare proc t(in x : low, out y : low) y=true;
+declare proc f(in x : low, out y : low) y=false;
+
+if(h) t(true,l); else f(false,l);
+
+Program 7
+declare ref x :high;
+ref x=h;
+l=deref(x);
+
+Program 8
+declare array x : low ;
+x[h]=true;
+l=x[true];
+
+Program 9
+l1=true;
+l2=false;
+l3=true;
+l4=false;
+l5=true;
+l6=true;
+
+Program 10
+l1=true;
+l2=false;
+l3=true;
+l4=false;
+l5=false;
+l6=true;
